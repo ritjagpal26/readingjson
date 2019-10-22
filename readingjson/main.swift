@@ -8,5 +8,26 @@
 
 import Foundation
 
-print("Hello, World!")
+func readJsonFile(jsonFileName: String)
+{
+    let url = Bundle.main.url(forResource: jsonFileName, withExtension: "json")
+    
+    guard let jsonData = url else{
+        return
+    }
+    
+    guard let data = try? Data(contentsOf: jsonData) else {
+        return
+    }
+    
+    guard let json = try? JSONSerialization.jsonObject(with: data, options: []) else {
+        return
+    }
+    
+    print(json)
+    
+    
+}
+
+//readJsonFile(jsonFileName: "sample")
 
