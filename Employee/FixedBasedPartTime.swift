@@ -9,25 +9,26 @@
 import Foundation
 class FixedBasedPartTime: PartTime
 {
-    var fixedAmount : Double
-    var totalPay : Double
-    
-    init(name : String,age : Int,hrate : Double, hoursWorked: Double, fixedAmount:Double,totalPay:Double)
-    {
-        super.init(name: name, age: age, hrate: hrate, hoursWorkde: hoursWorked)
-        self.fixedAmount = fixedAmount
-        self.totalPay = calcEarning()
+    var fixedAmount = Double()
+    var totalPay : Double{
+        return rate * hoursWorked
     }
+    
+//    init(name : String,age : Int,hrate : Double, hoursWorked: Double, fixedAmount:Double,totalPay:Double)
+//    {
+//        super.init(name: name, age: age, hrate: hrate, hoursWorkde: hoursWorked)
+//        self.fixedAmount = fixedAmount
+//        self.totalPay = calcEarning()
+//    }
     
     
     override func iDisplay() {
-        <#code#>
+               super.iDisplay()
+                print("Fixed ammount  \(fixedAmount)")
+                print("Total pay  \(totalPay)")
+         print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
+        
+        
     }
-    func calcEarning() -> Double  {
-        var  x:Double = 0
-        x = rate * hoursWorked
-        x = x + fixedAmount
-    }
-    
     
 }

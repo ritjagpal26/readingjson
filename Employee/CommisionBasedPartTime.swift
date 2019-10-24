@@ -9,26 +9,28 @@
 import Foundation
 class CommisionBasedPartTime: PartTime
 {
-    var commision : Double
+    var commision : Double!
     
-    var totalPay : Double
-    
-    init(name : String,age : Int,hrate : Double, hoursWorked: Double, commision:Double,totalPay:Double)
-    {
-        super.init(name: name, age: age, hrate: hrate, hoursWorkde: hoursWorked)
-        self.commision = commision
-        self.totalPay = calcEarning()
+    var totalPay : Double{
+        var  x:Double = 0
+        x = rate * hoursWorked
+         let a  = x * commision/100
+        return x + a
     }
+    
+//    init(name : String,age : Int,hrate : Double, hoursWorked: Double, commision:Double,totalPay:Double)
+//    {
+//        super.init(name: name, age: age, hrate: hrate, hoursWorkde: hoursWorked)
+//        self.commision = commision
+//        self.totalPay = calcEarning()
+//    }
     
     
     override func iDisplay() {
-        <#code#>
+        super.iDisplay()
+        print(" Commission : \(commision!)")
+        print("Total Pay \(totalPay)")
     }
-    func calcEarning() -> Double  {
-        var  x:Double = 0
-        x = rate * hoursWorked
-        x = x + fixedAmount
-    }
-    
+   
     
 }

@@ -15,6 +15,8 @@
         "type": "Motorcycle"
     },
     "schoolName": "Lambton College",
+    "salary": 258.25,
+
     "type": "Intern"
 },
 {
@@ -50,7 +52,7 @@
         "type": "Motorcycle"
     },
     "rate": 20.0,
-    "hoursWorked": 165,
+    "hoursWorked": 165.0,
     "fixedAmount": 130.0,
     "type": "PartTime / Fixed Amount"
 },
