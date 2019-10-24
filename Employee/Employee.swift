@@ -20,7 +20,7 @@ class Employee : Vehicle
     var vehicle: Vehicle?
  
     
-    
+    // new employee 
     func calculateEarning() -> Double
     {
         return 1000
