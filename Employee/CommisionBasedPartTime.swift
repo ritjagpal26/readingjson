@@ -28,8 +28,8 @@ class CommisionBasedPartTime: PartTime
     
     override func iDisplay() {
         super.iDisplay()
-        print(" Commission : \(commision!)")
-        print("Total Pay \(totalPay)")
+        print(" Commission : \(commision!.adddollar())")
+        print("Total Pay \(totalPay.adddollar())")
     }
    
     

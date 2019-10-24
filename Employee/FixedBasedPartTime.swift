@@ -25,8 +25,8 @@ class FixedBasedPartTime: PartTime
     override func iDisplay() {
                super.iDisplay()
         
-                print("Fixed ammount  \(fixedAmount)")
-                print("Total pay  \(totalPay)")
+                print("Fixed ammount  \(fixedAmount.adddollar())")
+                print("Total pay  \(totalPay.adddollar())")
         
         
         

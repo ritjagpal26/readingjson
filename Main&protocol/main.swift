@@ -57,7 +57,7 @@ func readJsonFile(jsonFileName: String)
                         
                     }
                     
-                    if let esalary = jsond["salary"] as? Float
+                    if let esalary = jsond["salary"] as? Double
                         
                     {
                         
@@ -175,7 +175,7 @@ func readJsonFile(jsonFileName: String)
                     c.iDisplay()
                     if let jsond1 = jsond["vehicle"] as? [String:Any]
                     {
-                        c.vehicle = c.ritik(jobj: jsond1)!
+                        c.vehicle = c.ritik(jobj: jsond1)
                         
                     }
                     
@@ -227,8 +227,10 @@ func readJsonFile(jsonFileName: String)
                         
                     }
                     d.iDisplay()
+                    
                     if let jsond1 = jsond["vehicle"] as? [String:Any]
                     {
+                        print("..")
                         d.vehicle = d.ritik(jobj: jsond1)
                         
                     }

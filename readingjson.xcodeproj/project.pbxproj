@@ -11,6 +11,8 @@
 		9B43ECCC236119F30044C6ED /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ECCB236119F30044C6ED /* Car.swift */; };
 		9B43ECCE23611A1A0044C6ED /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ECCD23611A1A0044C6ED /* Vehicle.swift */; };
 		9B43ECD023611E9D0044C6ED /* Motercycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ECCF23611E9D0044C6ED /* Motercycle.swift */; };
+		9B43ECD22361383D0044C6ED /* hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ECD12361383D0044C6ED /* hours.swift */; };
+		9B43ECD52361389D0044C6ED /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43ECD42361389D0044C6ED /* Currency.swift */; };
 		9BEFCCF7235E8159000906BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCCF6235E8159000906BE /* main.swift */; };
 		9BEFCD05235E8659000906BE /* sample.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BEFCCFD235E81E1000906BE /* sample.json */; };
 		9BEFCD08235E86B6000906BE /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCD07235E86B6000906BE /* Employee.swift */; };
@@ -48,6 +50,8 @@
 		9B43ECCB236119F30044C6ED /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		9B43ECCD23611A1A0044C6ED /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		9B43ECCF23611E9D0044C6ED /* Motercycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motercycle.swift; sourceTree = "<group>"; };
+		9B43ECD12361383D0044C6ED /* hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hours.swift; sourceTree = "<group>"; };
+		9B43ECD42361389D0044C6ED /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		9BEFCCF3235E8159000906BE /* readingjson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = readingjson; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEFCCF6235E8159000906BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BEFCCFD235E81E1000906BE /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
@@ -80,12 +84,22 @@
 			path = Vehicle;
 			sourceTree = "<group>";
 		};
+		9B43ECD32361384C0044C6ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B43ECD12361383D0044C6ED /* hours.swift */,
+				9B43ECD42361389D0044C6ED /* Currency.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		9BEFCCEA235E8159000906BE = {
 			isa = PBXGroup;
 			children = (
+				9B43ECD32361384C0044C6ED /* Extension */,
 				9B43ECCA236119D50044C6ED /* Vehicle */,
 				9BEFCD06235E869A000906BE /* Employee */,
-				9BEFCCF5235E8159000906BE /* readingjson */,
+				9BEFCCF5235E8159000906BE /* Main&protocol */,
 				9BEFCCF4235E8159000906BE /* Products */,
 				9BEFCCFF235E8263000906BE /* Frameworks */,
 			);
@@ -99,14 +113,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BEFCCF5235E8159000906BE /* readingjson */ = {
+		9BEFCCF5235E8159000906BE /* Main&protocol */ = {
 			isa = PBXGroup;
 			children = (
 				9BEFCCF6235E8159000906BE /* main.swift */,
 				9BEFCCFD235E81E1000906BE /* sample.json */,
 				9BEFCD14235E872F000906BE /* IDisplay.swift */,
 			);
-			path = readingjson;
+			path = "Main&protocol";
 			sourceTree = "<group>";
 		};
 		9BEFCCFF235E8263000906BE /* Frameworks */ = {
@@ -194,6 +208,8 @@
 				9BEFCD0C235E86D5000906BE /* PartTime.swift in Sources */,
 				9B43ECCC236119F30044C6ED /* Car.swift in Sources */,
 				9BEFCD13235E8719000906BE /* FixedBasedPartTime.swift in Sources */,
+				9B43ECD22361383D0044C6ED /* hours.swift in Sources */,
+				9B43ECD52361389D0044C6ED /* Currency.swift in Sources */,
 				9BEFCD0E235E86E5000906BE /* FullTime.swift in Sources */,
 				9B43ECCE23611A1A0044C6ED /* Vehicle.swift in Sources */,
 				9B43ECC823610E290044C6ED /* Intern.swift in Sources */,

@@ -11,18 +11,15 @@ class Intern:Employee
 {
     
     var schoolName : String?
-    var salary : Float?
+    var salary : Double?
     
     override func iDisplay() {
         super.iDisplay()
         
         print("The Employee is Intern")
         print("The School Name is : \(schoolName!)")
-        print("The Salary is : \(salary!)")
+        print("The Salary is : \(salary!.adddollar())")
       
-      
-    
-        
         
     }
     

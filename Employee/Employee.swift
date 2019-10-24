@@ -119,14 +119,14 @@ class Employee : Vehicle
         print("Name of Employee  :\(name)")
         print("Age of Employee: \(age)")
         print("Year of Birth : \(birthYear)")
-//        if let v = vehicle
-//        {
-//        v.iDisplay()
-//        }
-//        else
-//        {
-//            print(" no v")
-//        }
+        if let v = vehicle
+        {
+        v.iDisplay()
+        }
+        else
+        {
+            print(" no v")
+        }
     }
     
     

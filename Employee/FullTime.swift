@@ -29,9 +29,9 @@ class FullTime : Employee
     
         super.iDisplay()
         
-        print("Salar Of Employee \(salary!)")
-        print("Bonous : \(bonus!)")
-        print("Total Salary : \(total)")
+        print("Salar Of Employee \(salary!.adddollar())")
+        print("Bonous : \(bonus!.adddollar())")
+        print("Total Salary : \(total.adddollar())")
         
         
     }
