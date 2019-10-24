@@ -15,10 +15,11 @@ class Intern:Employee
     
     override func iDisplay() {
         super.iDisplay()
+        
         print("The Employee is Intern")
         print("The School Name is : \(schoolName!)")
         print("The Salary is : \(salary!)")
-      print("*******************************************")
+      
       
     
         

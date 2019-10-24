@@ -229,7 +229,7 @@ func readJsonFile(jsonFileName: String)
                     d.iDisplay()
                     if let jsond1 = jsond["vehicle"] as? [String:Any]
                     {
-                        d.vehicle = d.ritik(jobj: jsond1)!
+                        d.vehicle = d.ritik(jobj: jsond1)
                         
                     }
                     

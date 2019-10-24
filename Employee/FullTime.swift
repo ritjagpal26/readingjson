@@ -28,10 +28,11 @@ class FullTime : Employee
     override func iDisplay() {
     
         super.iDisplay()
+        
         print("Salar Of Employee \(salary!)")
         print("Bonous : \(bonus!)")
         print("Total Salary : \(total)")
-        print("####################################################")
+        
         
     }
     
